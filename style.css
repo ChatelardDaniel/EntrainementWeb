@@ -10,3 +10,12 @@ h1 {
         text-align: center;
     }
 }
+
+/* Pour les écrans à partir de la taille minimum est 674px, je passe en display flex pour aligner chaque card les une à côté des autres */
+@media screen and (min-width: 674px){
+    /* mettre le display: flex, sur le parent de card*/
+    .cards{
+        display: flex;
+        justify-content: space-around; /* espace entre tous */
+    }
+}
