@@ -16,6 +16,6 @@ h1 {
     /* mettre le display: flex, sur le parent de card*/
     .cards{
         display: flex;
-        justify-content: space-around; /* espace entre tous */
+        justify-content: space-around; /* espace entre tous sur l'axe horizontal */
     }
 }
