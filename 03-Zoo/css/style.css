@@ -40,6 +40,10 @@ html::-webkit-scrollbar-thumb{
     border-radius: 5rem;
 }
 
+section{
+    padding: 8rem 7%;
+}
+
 .btn{
     font-size: 1.7rem;
     display: inline-block;
@@ -175,3 +179,32 @@ html::-webkit-scrollbar-thumb{
 }
 
 /* end login form */
+
+/* home */
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/home-tiger-7765603_1280.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.home .content{
+    min-width: 60rem;
+}
+
+.home .content h3{
+    color: var(--white);
+    font-size: 6rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.home .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* end home */
