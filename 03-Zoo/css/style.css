@@ -90,3 +90,38 @@ html::-webkit-scrollbar-thumb{
 #menu-btn{
     display: none;
 }
+
+/* login form */
+.header .login-form{
+    position: absolute;
+    top: 115%;
+    right: -105%;
+    background: var(--white);
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    width: 35rem;
+    padding: 2rem;
+}
+
+.header .login-form.active{
+    right: 2rem;
+    transition: 0.4s linear;
+}
+
+.header .login-form h3{
+    font-size: 2.2rem;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+
+.header .login-form .box{
+    font-size: 1.5rem;
+    padding: 1rem 1.2rem;
+    border: 0.1rem solid rgba(0,0,0,0.1);
+    margin: 0.7rem 0;
+    color: var(--black);
+    width: 100%;
+}
+
