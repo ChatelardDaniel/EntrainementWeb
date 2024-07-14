@@ -55,3 +55,22 @@ copier coller le premier template, supprimer les éléments suivants.
         <button class="btn btn-outline-success" type="submit">Search</button>
     </form>
 ```
+
+descendre dans la page et sur 'image' copier coller.
+
+```html
+    <a class="navbar-brand" href="#">
+      <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+    </a>
+
+    <!--coller le lien sous 'container-fluid'-->
+    <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+            </a>
+
+    <!-- changer le src -->
+    <a class="navbar-brand" href="#">
+        <img src="img/logo.svg" alt="Logo" width="30" height="24">
+    </a>
+```
