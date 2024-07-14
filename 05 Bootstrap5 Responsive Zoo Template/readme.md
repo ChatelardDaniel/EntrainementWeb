@@ -1,4 +1,4 @@
-# installation de bootstrap cdn.
+# installation de bootstrap cdn
 
 allez sur le lien :
 
@@ -73,4 +73,10 @@ descendre dans la page et sur 'image' copier coller.
     <a class="navbar-brand" href="#">
         <img src="img/logo.svg" alt="Logo" width="30" height="24">
     </a>
+
+    <!-- Ajout d'une div -->
+        <div class="logo-s">
+            <a class="navbar-brand" href="#">Wildlife</a>
+            <p>Awesome zoo</p>
+        </div>
 ```
