@@ -1,0 +1,6 @@
+.cover{
+    background-image: url(../images/cover-elks-8430545_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
