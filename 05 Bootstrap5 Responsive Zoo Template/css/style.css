@@ -7,6 +7,7 @@
     color: #fff;
     font-family: "Poppins", sans-serif;
 }
+
 .cover{
     background-image: url(../images/cover-elks-8430545_1280.jpg);
     background-size: cover;
@@ -21,6 +22,10 @@
 
 .logo-s p,a{
     color: #fff !important;
+}
+
+.logo-s p{
+    font-size: 15px;
 }
 
 .navbar{
