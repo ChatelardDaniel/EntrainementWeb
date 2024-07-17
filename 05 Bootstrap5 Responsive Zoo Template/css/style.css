@@ -52,3 +52,41 @@
     margin: 0 20px 0 20px;
     transition: 500ms;
 }
+
+/* hero section start */
+
+.pt-5{
+    margin-top: 50px !important;
+}
+
+.hero-text{
+    letter-spacing: 3px;
+    font-weight: bold;
+    position: relative;
+}
+
+.hero-text::after{
+    content: "";
+    width: 200px;
+    height: 3px;
+    position: absolute;
+    top: 60%;
+    left: 38%;
+    background-color: #ED8501;
+}
+
+.hero-text span{
+    color: #ED8501;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 14px 40px;
+    border: 2px solid #ED8501;
+    color: black !important;
+}
+
+.btn:hover{
+    border: 2px solid #18AEE6;
+}
+/* hero section end */
