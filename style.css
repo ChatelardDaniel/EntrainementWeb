@@ -2,6 +2,11 @@ h1 {
     color: green;
 }
 
+a{
+    text-decoration-line: none;
+    color: black ;
+}
+
 /* A partir de 1204px s'utilise le grid */
 @media screen and (min-width:1204px){
     .tutorials-grid {
@@ -19,7 +24,7 @@ h1 {
 /* Grid */
 
 .tutorial-card{
-    background-color: lightcoral;
+    background-color: rgb(246, 205, 205);
     box-shadow: 4px 4px 10px rgba(0,0,0,0.08);
     border-radius: 5px;
     margin: 10px;
